@@ -75,7 +75,7 @@
 		$query = "Update student SET UserName='$Update_User', UserEmail='$Update_Email' WHERE id='$Update_ID'";
 		$result=mysqli_query($conn,$query);
 		if($result){
-			echo 'Your Record Has Been Update';
+			echo 'Your Record Has Been Updated';
 		}
 		else{
 			echo 'Please Check Your Query';
